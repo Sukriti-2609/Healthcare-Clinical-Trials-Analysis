@@ -86,8 +86,8 @@ healthcare-clinical-trials-analysis/
 │   │   │   ├── enrollment.png
 │   │   │   ├── top_countries.png
 │   │   │   ├── top_diseases.png
-│   │   │   ├── yearwise_distribution_including.png
-│   │   │   └── yearwise_distribution_excluding.png
+│   │   │   ├── yearwise_distribution_excluding.png
+│   │   │   └── yearwise_distribution_including.png
 │   │   │
 │   │   └── line/   
 │   │       ├── trend_over_time_excluding.png
