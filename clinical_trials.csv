@@ -1,0 +1,9 @@
+Trial_ID,Country,Disease,Start_Date,Status,Sponsor,Enrollment
+T001,india,Cancer,2020-01-01,Completed,PharmaCorp,100
+T002,India ,Diabetes,01/02/2021,Active,HealthGen,150
+T003,USA,Cancer,March 3 2022,Completed,PharmaCorp,200
+T004,usa,Cardiovascular,2022/04/01,Terminated,BioLife,
+T005,,Cancer,2021-05-10,Active,MedX,120
+T006,UK,Diabetes,,Completed,HealthGen,130
+T007,India,Cancer,2020-01-01,Completed,PharmaCorp,100
+T008,Canada,Neurology,2023-02-15,Active,BioLife,180
