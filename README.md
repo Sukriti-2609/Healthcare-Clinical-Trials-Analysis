@@ -115,9 +115,9 @@ healthcare-clinical-trials-analysis/
 
 ## 📂 Output
 
--![1](outputs/general/1.png)
--![2](outputs/general/2.png)
--![3](outputs/general/3.png)
+![1](outputs/general/1.png)
+![2](outputs/general/2.png)
+![3](outputs/general/3.png)
 
 - Cleaned dataset exported as:
   - `cleaned_clinical_trials.csv`
