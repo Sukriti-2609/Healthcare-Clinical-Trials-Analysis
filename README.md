@@ -50,6 +50,52 @@ Real-world datasets are often messy and inconsistent. This dataset contains issu
 
 ---
 
+## 📂 Project Structure
+
+```
+healthcare-clinical-trials-analysis/
+│
+├── data/
+│   │
+│   ├── raw/
+│   │   └── clinical_trials.csv
+│   │
+│   └── cleaned/
+│       ├── clinical_trials_cleaned.xlsx
+│       └── clinical_trials_cleaned.csv
+│
+├── notebooks/
+│   └── healthcare_analysis.ipynb
+│
+├── outputs/
+│   │
+│   ├── general/
+│   │   ├── 1.png
+│   │   ├── 2.png
+│   │   └── 3.png
+│   │
+│   ├── plots/
+│   │   │
+│   │   ├── bar/
+│   │   │   ├── enrollment.png
+│   │   │   ├── top_countries.png
+│   │   │   ├── top_diseases.png
+│   │   │   ├── yearwise_distribution.png
+│   │   │   └── yearwise_distribution_missing_year.png
+│   │   │
+│   │   └── line/   
+│   │       ├── trend_over_time.png
+│   │       └── trend_over_time_missing_year.png
+│   │
+│   └── reports/
+│
+├── README.md
+├── requirements.txt
+└── LICENSE
+```
+
+---
+
 ## 📁 Output
 - Cleaned dataset exported as:
   - `cleaned_clinical_trials.csv`
