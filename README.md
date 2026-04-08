@@ -1,9 +1,8 @@
 # 💊 Healthcare Clinical Trials Analysis
 
 ## 📖 Overview
-This project analyzes global clinical trial data to identify trends in diseases, countries, and study activity over time.
-The analysis demonstrates data cleaning, transformation, and exploratory data analysis (EDA) using Python.
-This project demonstrates end-to-end data analysis, including data cleaning, transformation, and insight generation from a messy real-world dataset.
+This project analyzes global clinical trial data to identify trends in diseases, countries, and study activity over time.  
+It demonstrates end-to-end data analysis, including data cleaning, transformation, and exploratory data analysis (EDA) using Python.
 
 ---
 
@@ -106,12 +105,12 @@ healthcare-clinical-trials-analysis/
 ## 🔍 Key Analysis
 
 ### 🌍 Top Countries Conducting Trials
--	Identified countries with highest clinical trial activity
+- Identified countries with highest clinical trial activity
 
 ### 🦠 Most Studied Diseases
 -	Cancer and Diabetes dominate research focus
 
-### 📉 Trend Over Time
+### 📈 Trend Over Time
 -	Clinical trials show increasing trend over years
 
 ---
@@ -146,6 +145,7 @@ This project highlights the importance of:
 - Working with missing values and formatting issues 
 - Converting and extracting datetime features 
 - Performing EDA and generating insights
+- Built a reproducible and well-structured data analysis pipeline suitable for real-world datasets
 
 ---
 
@@ -165,5 +165,6 @@ This project highlights the importance of:
 
 1. Clone the repository  
 2. Install dependencies:
-   - pip install -r requirements.txt
-3. Run the notebook in Jupyter or Kaggle
+   ```bash
+   pip install -r requirements.txt
+4. Run the notebook in Jupyter or Kaggle
