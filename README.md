@@ -86,12 +86,12 @@ healthcare-clinical-trials-analysis/
 │   │   │   ├── enrollment.png
 │   │   │   ├── top_countries.png
 │   │   │   ├── top_diseases.png
-│   │   │   ├── yearwise_distribution.png
-│   │   │   └── yearwise_distribution_missing_year.png
+│   │   │   ├── yearwise_distribution_including.png
+│   │   │   └── yearwise_distribution_excluding.png
 │   │   │
 │   │   └── line/   
-│   │       ├── trend_over_time.png
-│   │       └── trend_over_time_missing_year.png
+│   │       ├── trend_over_time_excluding.png
+│   │       └── trend_over_time_including.png
 │   │
 │   └── reports/
 │
@@ -123,14 +123,14 @@ healthcare-clinical-trials-analysis/
 ![3](outputs/general/3.png)
 
 ### 📈 Trend Analysis
-![Trend_Over_Time](outputs/plots/line/trend_over_time.png)
-![Trend_Over_Time_MY](outputs/plots/line/trend_over_time_missing_year.png)
+![Trend_Over_Time](outputs/plots/line/trend_over_time_excluding.png)
+![Trend_Over_Time_MY](outputs/plots/line/trend_over_time_including.png.png)
 
 ### 📊 Distribution Analysis
 ![Top Countries](outputs/plots/bar/top_countries.png)
 ![Top Diseases](outputs/plots/bar/top_diseases.png)
-![Yearwise](outputs/plots/bar/yearwise_distribution.png)
-![Yearwise_MY](outputs/plots/bar/yearwise_distribution_missing_year.png)
+![Yearwise](outputs/plots/bar/yearwise_distribution_including.png)
+![Yearwise_MY](outputs/plots/bar/yearwise_distribution_excluding.png)
 ![Enrollment](outputs/plots/bar/enrollment.png)
 
 - Cleaned dataset exported as:
