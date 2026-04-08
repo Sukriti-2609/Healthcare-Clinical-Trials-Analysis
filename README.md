@@ -124,7 +124,7 @@ healthcare-clinical-trials-analysis/
 
 ### 📈 Trend Analysis
 ![Trend_Over_Time](outputs/plots/line/trend_over_time_excluding.png)
-![Trend_Over_Time_MY](outputs/plots/line/trend_over_time_including.png.png)
+![Trend_Over_Time_MY](outputs/plots/line/trend_over_time_including.png)
 
 ### 📊 Distribution Analysis
 ![Top Countries](outputs/plots/bar/top_countries.png)
