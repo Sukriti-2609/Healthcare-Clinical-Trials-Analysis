@@ -1,11 +1,21 @@
-# 📊 Healthcare Clinical Trials Analysis
+# 💊 Healthcare Clinical Trials Analysis
 
-## 📌 Objective
-The goal of this project is to clean and analyze clinical trial data to extract meaningful insights and demonstrate real-world data handling skills.
+## 📖 Overview
+This project analyzes global clinical trial data to identify trends in diseases, countries, and study activity over time.
+The analysis demonstrates data cleaning, transformation, and exploratory data analysis (EDA) using Python.
 
 ---
 
-## 🧠 Problem Statement
+## 🎯 Objectives
+- Clean messy real-world dataset
+- Standardize inconsistent country names
+- Handle missing values
+- Analyze trends in clinical trials
+- Visualize key insights
+
+---
+
+## 🚨 Problem Statement
 Real-world datasets are often messy and inconsistent. This dataset contains issues such as:
 - Inconsistent country names (e.g., "india", "India ", "USA")
 - Missing values
@@ -14,7 +24,7 @@ Real-world datasets are often messy and inconsistent. This dataset contains issu
 
 ---
 
-## 🛠️ Data Cleaning Steps
+## 🧹 Data Cleaning Steps
 - Standardized country names using `country_converter`
 - Handled missing values:
   - Country → "Unknown"
@@ -26,31 +36,28 @@ Real-world datasets are often messy and inconsistent. This dataset contains issu
 
 ---
 
-## 📊 Analysis Performed
+## 💹 Analysis Performed
 - Top countries conducting clinical trials
 - Most studied diseases
 - Trend of trials over time
 
 ---
 
-## 📈 Key Insights
+## 📌 Key Insights
 - A few countries contribute to the majority of clinical trials
 - Certain diseases (like Cancer) dominate the dataset
 - Clinical trial activity increases over recent years
 
 ---
 
-## 🧰 Tools Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Country Converter
+## 🧰 Tech Stack 🛠️
+- Python ((Pandas, NumPy)
+- Data Visualization (Matplotlib, Seaborn)
+- Country Standardization (`country_converter`)
 
 ---
 
-## 📂 Project Structure
+## 🗂️ Project Structure
 
 ```
 healthcare-clinical-trials-analysis/
@@ -96,18 +103,38 @@ healthcare-clinical-trials-analysis/
 
 ---
 
-## 📁 Output
+## 🔍 Key Analysis
+🌍 Top Countries Conducting Trials
+-	Identified countries with highest clinical trial activity 
+🦠 Most Studied Diseases
+-	Cancer and Diabetes dominate research focus 
+📈 Trend Over Time
+-	Clinical trials show increasing trend over years
+
+---
+
+## 📂 Output
 - Cleaned dataset exported as:
   - `cleaned_clinical_trials.csv`
   - `cleaned_clinical_trials.xlsx`
 
 ---
 
-## 🚀 Key Learning
+## 🖥️ Visualizations
+
+![Top Countries](outputs/plots/top_countries.png)
+![Top Diseases](outputs/plots/top_diseases.png)
+![Trend](outputs/plots/trend_over_time.png)
+
+---
+
+## 🧠 Key Learning
 This project highlights the importance of:
-- Handling messy real-world data
-- Making thoughtful data cleaning decisions
+- Handling inconsistent real-world data
 - Understanding data before analysis
+- Working with missing values and formatting issues 
+- Converting and extracting datetime features 
+- Performing EDA and generating insights
 
 ---
 
