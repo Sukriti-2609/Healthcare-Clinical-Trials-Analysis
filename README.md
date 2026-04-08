@@ -115,9 +115,9 @@ healthcare-clinical-trials-analysis/
 
 ## 📂 Output
 
--![1](outputs/generals/1.png)
--![2](outputs/generals/2.png)
--![3](outputs/generals/3.png)
+-![1](outputs/general/1.png)
+-![2](outputs/general/2.png)
+-![3](outputs/general/3.png)
 
 - Cleaned dataset exported as:
   - `cleaned_clinical_trials.csv`
@@ -127,9 +127,13 @@ healthcare-clinical-trials-analysis/
 
 ## 🖥️ Visualizations
 
-![Top Countries](outputs/plots/top_countries.png)
-![Top Diseases](outputs/plots/top_diseases.png)
-![Trend](outputs/plots/trend_over_time.png)
+![Top Countries](outputs/plots/bar/top_countries.png)
+![Top Diseases](outputs/plots/bar/top_diseases.png)
+![Trend_Over_Time_MY](outputs/plots/line/trend_over_time_missing_year.png)
+![Trend_Over_Time](outputs/plots/line/trend_over_time.png)
+![Yearwise_MY](outputs/plots/bar/yearwise_distribution_missing_year.png)
+![Yearwise](outputs/plots/bar/yearwise_distribution.png)
+![Enrollment](outputs/plots/bar/enrollment.png)
 
 ---
 
